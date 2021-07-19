@@ -1,0 +1,2753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<daysail>
+  <boat val="edake" />
+  <confignum val="0" />
+  <date val="2021-02-28" />
+  <boatdaydescription val="" />
+  <opponentname val="" />
+  <location val="SH_Sound" />
+  <crewweight val="0" />
+  <extraweight val="0" />
+  <daytype val="12" />
+  <daytypestr val="Racing; WinLee" />
+  <idcrewlist val="0" />
+  <idsaillist val="0" />
+  <idboatconfig val="0" />
+  <dailycomments>
+    <boatname val="edake" />
+    <date val="2021-02-28" />
+    <daygoals val="" />
+    <daycomments val="" />
+    <weatherforecast val="" />
+    <weathercomments val="" />
+    <calibrationcomments val="" />
+    <calibrationquality val="0" />
+    <performancecomments val="" />
+    <sailscomments val="" />
+    <sailsused val="" />
+    <electronicscomments val="" />
+    <technicalproblems val="" />
+  </dailycomments>
+  <events>
+    <event date="2021-02-28" time="10:11:51" type="DayStart" attribute="" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="10:59:21" type="RaceStartGun" attribute="1" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="11:15:59" type="RaceMark" attribute="1" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="11:16:52" type="RaceMark" attribute="1dog" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="11:25:34" type="RaceMark" attribute="2" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="11:34:20" type="RaceMark" attribute="3" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="11:41:20" type="RaceFinish" attribute="1" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="11:56:47" type="RaceStartGun" attribute="2" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="12:05:54" type="RaceMark" attribute="1" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="12:06:31" type="RaceMark" attribute="1dog" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="12:12:56" type="RaceMark" attribute="2" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="12:21:26" type="RaceMark" attribute="3" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="12:21:56" type="RaceMark" attribute="3dog" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="12:28:43" type="RaceFinish" attribute="2" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="12:51:43" type="RaceStartGun" attribute="3" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:01:13" type="RaceMark" attribute="1" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:01:39" type="RaceMark" attribute="1dog" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:07:43" type="RaceMark" attribute="2" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:16:13" type="RaceMark" attribute="3" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:16:44" type="RaceMark" attribute="3dog" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:23:29" type="RaceFinish" attribute="3" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:41:59" type="RaceStartGun" attribute="4" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:50:59" type="RaceMark" attribute="1" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:51:28" type="RaceMark" attribute="1dog" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="13:58:59" type="RaceMark" attribute="2" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="14:07:41" type="RaceMark" attribute="3" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="14:07:56" type="RaceMark" attribute="3dog" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="14:15:28" type="RaceFinish" attribute="4" comments="" labelalign="Top" />
+    <event date="2021-02-28" time="14:18:21" type="DayStop" attribute="" comments="" labelalign="Top" />
+  </events>
+  <tackjibes>
+    <tackjibe datetime="2021-02-28 09:23:39" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="6" errmsg="No sails up. Missing points during the tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 09:37:48" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="146" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 09:38:10" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="210" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 09:38:47" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 09:48:47" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="146" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 09:49:00" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 10:21:30" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points before the tack are outside the TWA bracket [29.9;59.9]." />
+    <tackjibe datetime="2021-02-28 10:33:25" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [33.3;63.3]." />
+    <tackjibe datetime="2021-02-28 10:40:38" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [121.5;161.5]." />
+    <tackjibe datetime="2021-02-28 10:42:22" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points before the jibe are outside the TWA bracket [120.2;160.2]." />
+    <tackjibe datetime="2021-02-28 10:43:52" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [117.7;157.7]." />
+    <tackjibe datetime="2021-02-28 10:51:46" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [35.8;65.8]." />
+    <tackjibe datetime="2021-02-28 10:55:32" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [127.7;157.7]." />
+    <tackjibe datetime="2021-02-28 10:57:15" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 10:58:24" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [24;64]." />
+    <tackjibe datetime="2021-02-28 11:00:57" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [35.7;65.7]." />
+    <tackjibe datetime="2021-02-28 11:05:21" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points before the tack are outside the TWA bracket [36.1;66.1]." />
+    <tackjibe datetime="2021-02-28 11:06:30" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [33.4;63.4]." />
+    <tackjibe datetime="2021-02-28 11:10:14" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [29;59]." />
+    <tackjibe datetime="2021-02-28 11:15:59" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [34;64]." />
+    <tackjibe datetime="2021-02-28 11:24:28" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 11:26:23" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points before the tack are outside the TWA bracket [38.4;68.4]." />
+    <tackjibe datetime="2021-02-28 11:28:14" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 11:30:23" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="131" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 11:31:18" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="67" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 11:32:45" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="131" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 11:33:31" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="210" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 11:34:15" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 11:37:58" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 11:44:26" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [140.6;170.6]." />
+    <tackjibe datetime="2021-02-28 11:47:45" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [29;59]." />
+    <tackjibe datetime="2021-02-28 11:50:09" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [29;59]." />
+    <tackjibe datetime="2021-02-28 11:51:59" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [29;59]." />
+    <tackjibe datetime="2021-02-28 11:53:17" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [147.5;177.5]." />
+    <tackjibe datetime="2021-02-28 11:54:28" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="146" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 11:55:32" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="210" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 11:56:15" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="210" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 11:56:32" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="67" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 12:01:26" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 12:05:38" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [34.6;64.6]." />
+    <tackjibe datetime="2021-02-28 12:09:09" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 12:12:51" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [135.7;175.7]." />
+    <tackjibe datetime="2021-02-28 12:16:20" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 12:20:59" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [29;59]." />
+    <tackjibe datetime="2021-02-28 12:23:24" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 12:26:02" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="131" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 12:26:56" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="67" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 12:28:11" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="146" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 12:28:20" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 12:31:37" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points before the tack are outside the TWA bracket [29;59]." />
+    <tackjibe datetime="2021-02-28 12:36:16" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [133.5;173.5]." />
+    <tackjibe datetime="2021-02-28 12:40:04" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 12:43:15" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [133.9;173.9]." />
+    <tackjibe datetime="2021-02-28 12:46:09" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [35.2;75.2]." />
+    <tackjibe datetime="2021-02-28 12:48:30" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="146" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 12:49:28" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 12:50:38" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [148.1;178.1]." />
+    <tackjibe datetime="2021-02-28 12:54:25" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 12:57:59" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 12:59:06" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:00:28" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="146" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:00:40" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="210" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:01:00" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:02:12" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [100.8;140.8]." />
+    <tackjibe datetime="2021-02-28 13:04:54" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:06:32" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:07:43" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [144.5;174.5]." />
+    <tackjibe datetime="2021-02-28 13:10:36" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:12:20" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="146" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:12:59" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:15:55" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [29;59]." />
+    <tackjibe datetime="2021-02-28 13:19:42" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:26:33" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [142;172]." />
+    <tackjibe datetime="2021-02-28 13:29:04" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [29.1;59.1]." />
+    <tackjibe datetime="2021-02-28 13:31:28" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points before the tack are outside the TWA bracket [29.9;59.9]." />
+    <tackjibe datetime="2021-02-28 13:37:04" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [130;170]." />
+    <tackjibe datetime="2021-02-28 13:39:54" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [135.3;175.3]." />
+    <tackjibe datetime="2021-02-28 13:42:01" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points before the tack are outside the TWA bracket [29.6;59.6]." />
+    <tackjibe datetime="2021-02-28 13:44:21" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:48:00" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:50:57" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="146" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:51:58" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:53:50" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:55:55" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 13:57:44" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="131" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:58:23" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="210" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:58:44" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="210" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 13:59:06" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="82" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 14:01:21" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="131" errmsg="No sails up. Too close to next tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 14:02:24" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="67" errmsg="No sails up. Too close to previous tack&amp;frasl;jibe." />
+    <tackjibe datetime="2021-02-28 14:03:33" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 14:05:54" istack="true" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 14:07:44" istack="true" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the tack are outside the TWA bracket [30.9;60.9]." />
+    <tackjibe datetime="2021-02-28 14:09:10" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 14:12:43" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 14:15:05" istack="false" isvalidcalib="true" isvalidperf="true" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="3" errmsg="No sails up." />
+    <tackjibe datetime="2021-02-28 14:21:23" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [127.8;167.8]." />
+    <tackjibe datetime="2021-02-28 14:30:20" istack="false" isvalidcalib="false" isvalidperf="false" timebefore="20" timeafter="45" avgtime="30" fixwind="False" isdeleted="false" errcode="18" errmsg="No sails up. More than 25% of points after the jibe are outside the TWA bracket [129.9;169.9]." />
+  </tackjibes>
+  <chartfocus>
+    <item name="Race1 Leg1" time1="2021-02-28 10:58:51" time2="2021-02-28 11:17:21" />
+    <item name="Race1 Leg2" time1="2021-02-28 11:16:21" time2="2021-02-28 11:26:04" />
+    <item name="Race1 Leg3" time1="2021-02-28 11:25:04" time2="2021-02-28 11:34:50" />
+    <item name="Race1 Leg4" time1="2021-02-28 11:33:50" time2="2021-02-28 11:41:50" />
+    <item name="Race2 Leg1" time1="2021-02-28 11:56:17" time2="2021-02-28 12:06:24" />
+    <item name="Race2 Leg2" time1="2021-02-28 12:05:24" time2="2021-02-28 12:13:26" />
+    <item name="Race2 Leg3" time1="2021-02-28 12:12:26" time2="2021-02-28 12:21:56" />
+    <item name="Race2 Leg4" time1="2021-02-28 12:20:56" time2="2021-02-28 12:29:13" />
+    <item name="Race3 Leg1" time1="2021-02-28 12:51:13" time2="2021-02-28 13:01:43" />
+    <item name="Race3 Leg2" time1="2021-02-28 13:00:43" time2="2021-02-28 13:08:13" />
+    <item name="Race3 Leg3" time1="2021-02-28 13:07:13" time2="2021-02-28 13:16:43" />
+    <item name="Race3 Leg4" time1="2021-02-28 13:15:43" time2="2021-02-28 13:23:59" />
+    <item name="Race4 Leg1" time1="2021-02-28 13:41:29" time2="2021-02-28 13:51:29" />
+    <item name="Race4 Leg2" time1="2021-02-28 13:50:29" time2="2021-02-28 13:59:29" />
+    <item name="Race4 Leg3" time1="2021-02-28 13:58:29" time2="2021-02-28 14:08:11" />
+    <item name="Race4 Leg4" time1="2021-02-28 14:07:11" time2="2021-02-28 14:15:58" />
+  </chartfocus>
+  <phases>
+    <phase name="edake_LegPhase_20210228_105921">
+      <startdatetime val="2021-02-28 10:59:21" />
+      <sailsup val="" />
+      <duration val="998" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="1" />
+      <racelegnum val="1" />
+      <sailingmode val="2" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_105953">
+      <startdatetime val="2021-02-28 10:59:53" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_110921">
+      <startdatetime val="2021-02-28 11:09:21" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_111652">
+      <startdatetime val="2021-02-28 11:16:52" />
+      <sailsup val="" />
+      <duration val="522" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_111822">
+      <startdatetime val="2021-02-28 11:18:22" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_111853">
+      <startdatetime val="2021-02-28 11:18:53" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_111924">
+      <startdatetime val="2021-02-28 11:19:24" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_111955">
+      <startdatetime val="2021-02-28 11:19:55" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112026">
+      <startdatetime val="2021-02-28 11:20:26" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112057">
+      <startdatetime val="2021-02-28 11:20:57" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112128">
+      <startdatetime val="2021-02-28 11:21:28" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112230">
+      <startdatetime val="2021-02-28 11:22:30" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112301">
+      <startdatetime val="2021-02-28 11:23:01" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112332">
+      <startdatetime val="2021-02-28 11:23:32" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_112534">
+      <startdatetime val="2021-02-28 11:25:34" />
+      <sailsup val="" />
+      <duration val="526" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="1" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112716">
+      <startdatetime val="2021-02-28 11:27:16" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112829">
+      <startdatetime val="2021-02-28 11:28:29" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112900">
+      <startdatetime val="2021-02-28 11:29:00" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_112931">
+      <startdatetime val="2021-02-28 11:29:31" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113143">
+      <startdatetime val="2021-02-28 11:31:43" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_113420">
+      <startdatetime val="2021-02-28 11:34:20" />
+      <sailsup val="" />
+      <duration val="420" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113502">
+      <startdatetime val="2021-02-28 11:35:02" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113533">
+      <startdatetime val="2021-02-28 11:35:33" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113604">
+      <startdatetime val="2021-02-28 11:36:04" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113635">
+      <startdatetime val="2021-02-28 11:36:35" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113706">
+      <startdatetime val="2021-02-28 11:37:06" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113819">
+      <startdatetime val="2021-02-28 11:38:19" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113850">
+      <startdatetime val="2021-02-28 11:38:50" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113921">
+      <startdatetime val="2021-02-28 11:39:21" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_113952">
+      <startdatetime val="2021-02-28 11:39:52" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_114023">
+      <startdatetime val="2021-02-28 11:40:23" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_114054">
+      <startdatetime val="2021-02-28 11:40:54" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="1" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_115647">
+      <startdatetime val="2021-02-28 11:56:47" />
+      <sailsup val="" />
+      <duration val="547" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_115652">
+      <startdatetime val="2021-02-28 11:56:52" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_115723">
+      <startdatetime val="2021-02-28 11:57:23" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_115754">
+      <startdatetime val="2021-02-28 11:57:54" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_115825">
+      <startdatetime val="2021-02-28 11:58:25" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_115856">
+      <startdatetime val="2021-02-28 11:58:56" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_115927">
+      <startdatetime val="2021-02-28 11:59:27" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_115958">
+      <startdatetime val="2021-02-28 11:59:58" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_120141">
+      <startdatetime val="2021-02-28 12:01:41" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_120212">
+      <startdatetime val="2021-02-28 12:02:12" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_120243">
+      <startdatetime val="2021-02-28 12:02:43" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_120314">
+      <startdatetime val="2021-02-28 12:03:14" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_120345">
+      <startdatetime val="2021-02-28 12:03:45" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_120631">
+      <startdatetime val="2021-02-28 12:06:31" />
+      <sailsup val="" />
+      <duration val="385" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="2" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_120736">
+      <startdatetime val="2021-02-28 12:07:36" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_120807">
+      <startdatetime val="2021-02-28 12:08:07" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121026">
+      <startdatetime val="2021-02-28 12:10:26" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121057">
+      <startdatetime val="2021-02-28 12:10:57" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121128">
+      <startdatetime val="2021-02-28 12:11:28" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_121256">
+      <startdatetime val="2021-02-28 12:12:56" />
+      <sailsup val="" />
+      <duration val="510" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121315">
+      <startdatetime val="2021-02-28 12:13:15" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121346">
+      <startdatetime val="2021-02-28 12:13:46" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121417">
+      <startdatetime val="2021-02-28 12:14:17" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121448">
+      <startdatetime val="2021-02-28 12:14:48" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121519">
+      <startdatetime val="2021-02-28 12:15:19" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121648">
+      <startdatetime val="2021-02-28 12:16:48" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121719">
+      <startdatetime val="2021-02-28 12:17:19" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121750">
+      <startdatetime val="2021-02-28 12:17:50" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121821">
+      <startdatetime val="2021-02-28 12:18:21" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121852">
+      <startdatetime val="2021-02-28 12:18:52" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121923">
+      <startdatetime val="2021-02-28 12:19:23" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_121954">
+      <startdatetime val="2021-02-28 12:19:54" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_122156">
+      <startdatetime val="2021-02-28 12:21:56" />
+      <sailsup val="" />
+      <duration val="407" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="2" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_122224">
+      <startdatetime val="2021-02-28 12:22:24" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_122410">
+      <startdatetime val="2021-02-28 12:24:10" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_122441">
+      <startdatetime val="2021-02-28 12:24:41" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_122512">
+      <startdatetime val="2021-02-28 12:25:12" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_122715">
+      <startdatetime val="2021-02-28 12:27:15" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="2" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_125143">
+      <startdatetime val="2021-02-28 12:51:43" />
+      <sailsup val="" />
+      <duration val="570" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125158">
+      <startdatetime val="2021-02-28 12:51:58" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125229">
+      <startdatetime val="2021-02-28 12:52:29" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125300">
+      <startdatetime val="2021-02-28 12:53:00" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125331">
+      <startdatetime val="2021-02-28 12:53:31" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125452">
+      <startdatetime val="2021-02-28 12:54:52" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125523">
+      <startdatetime val="2021-02-28 12:55:23" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125554">
+      <startdatetime val="2021-02-28 12:55:54" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125625">
+      <startdatetime val="2021-02-28 12:56:25" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125656">
+      <startdatetime val="2021-02-28 12:56:56" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125814">
+      <startdatetime val="2021-02-28 12:58:14" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_125929">
+      <startdatetime val="2021-02-28 12:59:29" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_130139">
+      <startdatetime val="2021-02-28 13:01:39" />
+      <sailsup val="" />
+      <duration val="364" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="3" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130228">
+      <startdatetime val="2021-02-28 13:02:28" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130259">
+      <startdatetime val="2021-02-28 13:02:59" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130330">
+      <startdatetime val="2021-02-28 13:03:30" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130401">
+      <startdatetime val="2021-02-28 13:04:01" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130509">
+      <startdatetime val="2021-02-28 13:05:09" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130540">
+      <startdatetime val="2021-02-28 13:05:40" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130649">
+      <startdatetime val="2021-02-28 13:06:49" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_130743">
+      <startdatetime val="2021-02-28 13:07:43" />
+      <sailsup val="" />
+      <duration val="510" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130805">
+      <startdatetime val="2021-02-28 13:08:05" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130836">
+      <startdatetime val="2021-02-28 13:08:36" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130907">
+      <startdatetime val="2021-02-28 13:09:07" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_130938">
+      <startdatetime val="2021-02-28 13:09:38" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131054">
+      <startdatetime val="2021-02-28 13:10:54" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131125">
+      <startdatetime val="2021-02-28 13:11:25" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131322">
+      <startdatetime val="2021-02-28 13:13:22" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131353">
+      <startdatetime val="2021-02-28 13:13:53" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131424">
+      <startdatetime val="2021-02-28 13:14:24" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131455">
+      <startdatetime val="2021-02-28 13:14:55" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_131644">
+      <startdatetime val="2021-02-28 13:16:44" />
+      <sailsup val="" />
+      <duration val="405" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131715">
+      <startdatetime val="2021-02-28 13:17:15" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131746">
+      <startdatetime val="2021-02-28 13:17:46" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131817">
+      <startdatetime val="2021-02-28 13:18:17" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131848">
+      <startdatetime val="2021-02-28 13:18:48" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_131959">
+      <startdatetime val="2021-02-28 13:19:59" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_132030">
+      <startdatetime val="2021-02-28 13:20:30" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_132101">
+      <startdatetime val="2021-02-28 13:21:01" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_132132">
+      <startdatetime val="2021-02-28 13:21:32" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_132203">
+      <startdatetime val="2021-02-28 13:22:03" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_132234">
+      <startdatetime val="2021-02-28 13:22:34" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_132305">
+      <startdatetime val="2021-02-28 13:23:05" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="3" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_134159">
+      <startdatetime val="2021-02-28 13:41:59" />
+      <sailsup val="" />
+      <duration val="540" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134253">
+      <startdatetime val="2021-02-28 13:42:53" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134324">
+      <startdatetime val="2021-02-28 13:43:24" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134450">
+      <startdatetime val="2021-02-28 13:44:50" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134521">
+      <startdatetime val="2021-02-28 13:45:21" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134552">
+      <startdatetime val="2021-02-28 13:45:52" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134623">
+      <startdatetime val="2021-02-28 13:46:23" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134654">
+      <startdatetime val="2021-02-28 13:46:54" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134824">
+      <startdatetime val="2021-02-28 13:48:24" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134855">
+      <startdatetime val="2021-02-28 13:48:55" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134926">
+      <startdatetime val="2021-02-28 13:49:26" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_134957">
+      <startdatetime val="2021-02-28 13:49:57" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="1" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_135128">
+      <startdatetime val="2021-02-28 13:51:28" />
+      <sailsup val="" />
+      <duration val="451" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="4" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_135251">
+      <startdatetime val="2021-02-28 13:52:51" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_135419">
+      <startdatetime val="2021-02-28 13:54:19" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_135450">
+      <startdatetime val="2021-02-28 13:54:50" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_135616">
+      <startdatetime val="2021-02-28 13:56:16" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_135647">
+      <startdatetime val="2021-02-28 13:56:47" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="2" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_135859">
+      <startdatetime val="2021-02-28 13:58:59" />
+      <sailsup val="" />
+      <duration val="522" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_135924">
+      <startdatetime val="2021-02-28 13:59:24" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_135955">
+      <startdatetime val="2021-02-28 13:59:55" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140026">
+      <startdatetime val="2021-02-28 14:00:26" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140240">
+      <startdatetime val="2021-02-28 14:02:40" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140354">
+      <startdatetime val="2021-02-28 14:03:54" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140425">
+      <startdatetime val="2021-02-28 14:04:25" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140456">
+      <startdatetime val="2021-02-28 14:04:56" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140615">
+      <startdatetime val="2021-02-28 14:06:15" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140646">
+      <startdatetime val="2021-02-28 14:06:46" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="3" />
+      <sailingmode val="1" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_LegPhase_20210228_140756">
+      <startdatetime val="2021-02-28 14:07:56" />
+      <sailsup val="" />
+      <duration val="452" />
+      <phasetype val="544" />
+      <phasenum val="0" />
+      <phasetypestr val="CompleteRaceLeg;PortStbd" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140809">
+      <startdatetime val="2021-02-28 14:08:09" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_140936">
+      <startdatetime val="2021-02-28 14:09:36" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_141007">
+      <startdatetime val="2021-02-28 14:10:07" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_141038">
+      <startdatetime val="2021-02-28 14:10:38" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_141109">
+      <startdatetime val="2021-02-28 14:11:09" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_141140">
+      <startdatetime val="2021-02-28 14:11:40" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_141305">
+      <startdatetime val="2021-02-28 14:13:05" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_141336">
+      <startdatetime val="2021-02-28 14:13:36" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+    <phase name="edake_NormedPhase_20210228_141407">
+      <startdatetime val="2021-02-28 14:14:07" />
+      <sailsup val="" />
+      <duration val="30" />
+      <phasetype val="2" />
+      <phasenum val="0" />
+      <phasetypestr val="Racing" />
+      <racenum val="4" />
+      <racelegnum val="4" />
+      <sailingmode val="8" />
+      <opponentname val="" />
+      <balancetype val="0" />
+      <phasemadeonboard val="False" />
+      <comments val="" />
+      <testsubject val="" />
+      <testrating val="0" />
+    </phase>
+  </phases>
+  <boatdayconfig>
+    <item property="Location" value="SH_Sound" />
+  </boatdayconfig>
+  <magvar val="12.7" />
+</daysail>
