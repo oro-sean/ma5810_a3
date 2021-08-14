@@ -120,58 +120,40 @@ finishTime <- Sys.time()
 
 stopCluster(cl)
 
-rawData$group <- cutree(model, k = 8)
-
-cluster_1 <- modelData %>% filter(group == 3)
-cluster_1$LOF <- lof(x=cluster_1, minPts = 100)
-cluster_1 <- cluster_1 %>% filter(LOF < 1.5)
-
-cluster_2 <- modelData %>% filter(group == 5)
-cluster_2$LOF <- lof(x=cluster_2, minPts = 100)
-cluster_2 <- cluster_2 %>% filter(LOF < 1.5)
-
-cluster_3 <- modelData %>% filter(group == 7)
-cluster_3$LOF <- lof(x=cluster_3, minPts = 100)
-cluster_3 <- cluster_3 %>% filter(LOF < 1.5)
-
-cluster_4 <- modelData %>% filter(group == 8)
-cluster_4$LOF <- lof(x=cluster_4, minPts = 100)
-cluster_4 <- cluster_4 %>% filter(LOF < 1.5)
-
-modelData <- rbind(cluster_1, cluster_2, cluster_3, cluster_4)
-rawData <- modelData
-
 data <- ggplot(rawData, aes(x = long, y = lat)) + coord_quickmap() + 
   geom_point(aes(colour = hdg, stroke = .001)) + theme(legend.position = "bottom") + facet_wrap(rawData$group)
 data
 
-modelData <- rawData %>% filter(group == 3 | group == 5 | group == 7 | group == 8)
 
-cluster_1 <- modelData %>% filter(group == 4)
-cluster_1$LOF <- lof(x=cluster_1, minPts = 100)
-cluster_1 <- cluster_1 %>% filter(LOF < 1.5)
+rawData$group <- cutree(model, k = 12)
 
-cluster_2 <- modelData %>% filter(group == 5)
-cluster_2$LOF <- lof(x=cluster_2, minPts = 100)
-cluster_2 <- cluster_2 %>% filter(LOF < 1.5)
+clustersToKeep = c(3, 4, 5, 6, 8, 9, 11, 12)
 
-cluster_3 <- modelData %>% filter(group == 6)
-cluster_3$LOF <- lof(x=cluster_3, minPts = 100)
-cluster_3 <- cluster_3 %>% filter(LOF < 1.5)
+modelData <- foreach( i = clustersToKeep, .combine = rbind) %do%
+  {
+    subset <- rawData %>% filter(group == i)
+    subset$lof <- lof(x=subset, minPts = 100)
+    subset
+  }
 
-cluster_4 <- modelData %>% filter(group == 7)
-cluster_4$LOF <- lof(x=cluster_4, minPts = 100)
-cluster_4 <- cluster_4 %>% filter(LOF < 1.5)
+modelData <- modelData %>% mutate(lofThresholds = ifelse(lof <= 1, 1, ifelse(lof < 1.5, DescTools::RoundTo(lof, multiple = 0.1, FUN = trunc), 1.5)))
+  
 
-modelData <- rbind(cluster_1, cluster_2, cluster_3, cluster_4)
-rawData <- modelData
+
+data <- ggplot(modelData, aes(x = long, y = lat)) + coord_quickmap() + 
+  geom_point(aes(colour = as.factor(lofThresholds), stroke = .001)) + theme(legend.position = "bottom") + facet_wrap(modelData$group)
+data
+
+modelData <- modelData %>% filter(lof <= 1.1)
+
+comp_cor <- c(-1.5,-1,-0.5,0,0.5,1,1.5)
 
 dif_tide <- 
-  foreach(o = c(-1.5,-1,-0.5,0,0.5,1,1.5), .combine = c) %do%
+  foreach(o = comp_cor, .combine = c) %do%
   {
-    rawData <- rawData %>% mutate(course = ifelse(course + o < 360 & course + o >= 0, course + o, ifelse(course + o < 0, 360 - course + o, course + o - 360)))
+    testData <- modelData %>% mutate(course = ifelse(course + o < 360 & course + o >= 0, course + o, ifelse(course + o < 0, 360 - course + o, course + o - 360)))
     
-    tide <- foreach(i  = unique(rawData$group), .combine = rbind) %do%
+    tide <- foreach(i  = unique(testData$group), .combine = rbind) %do%
       {
         GetTide <- function(sample, roll_mean)
         {
@@ -196,13 +178,14 @@ dif_tide <-
     
   }
 
-comp_cor <- c(-1.5,-1,-0.5,0,0.5,1,1.5)
-o <- comp_cor[which.min(dif_tide)] 
+comp_cor <- comp_cor[which.min(dif_tide)] 
 
 
 
 
-modelData <- rawData %>% mutate(course = ifelse(course + o < 360 & course + o >= 0, course + o, ifelse(course + o < 0, 360 - course + o, course + o - 360)))
+modelData <- modelData %>% mutate(course = ifelse(course + comp_cor < 360 & course + comp_cor >= 0, course 
+                                                  + comp_cor, ifelse(course + comp_cor < 0, 360 - course 
+                                                                     + comp_cor, course + comp_cor - 360)))
 
 
 modelData <- modelData %>% 
