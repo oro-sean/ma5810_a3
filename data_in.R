@@ -5,6 +5,7 @@ if(!is.null(dev.list())) dev.off()
 cat("\014")
 setwd("~/Documents/GitHub/ma5810_a3")
 
+startTime <- Sys.time()
 
 library(caret, warn.conflicts = FALSE, quietly = TRUE) # handy ml package, data splitting, training ect ect
 library(cluster, warn.conflicts = FALSE, quietly = TRUE) # for clustering
@@ -21,7 +22,7 @@ library(ggdendro, warn.conflicts = FALSE, quietly = TRUE) # for some clever dend
 
 file <- "210228.1s_clean.txt"
 rawData <- read.csv(file, sep = "\t", header = TRUE)
-rawData <- rawData %>% mutate(Utc = round(Utc*24*60*60, digits = 0) - round(rawData$Utc[1]*24*60*60, digits = 0))
+rawData <- rawData[2000:19000, ] %>% mutate(Utc = round(Utc*24*60*60, digits = 0) - round(rawData$Utc[1]*24*60*60, digits = 0))
 names(rawData) <- c("sec", "lat", "long", "heel", "bsp", "awa", "aws", "leeway", "course", "twd", "twa", "tws", "sog", "cog", "drift", "set", "hdg")
 
 
@@ -42,7 +43,7 @@ modelData_df <- dataCluster_cor # move data into model data frame
 modelData_matrix <- as.matrix(modelData_df) # create matrix of model data
 
 ## calculate dissimilarity matrix using various methods.
-dissimilarityArray_all <- array(dim = c(16362, 16362, 3))
+dissimilarityArray_all <- array(dim = c(15485, 15485, 3))
 dissimilarityArray_all[ , ,1] <- as.matrix(dist(modelData_matrix, method = "cosine")) # dissimilarity based on cosine distance and save as the first matrix in array
 dissimilarityArray_all[ , ,2] <- as.matrix(dist(modelData_matrix, method = "euclidean")) # dissimilarity based on euclidean distance and save as second matrix in array
 dissimilarityArray_all[ , ,3] <- as.matrix(dist(modelData_matrix, method = "manhattan"))
@@ -55,10 +56,10 @@ ac_value <- c() # empty vector to store Ac value for quick access later
 ac_label <- c() # empty vector to stor AC labels
 ac_sim <- c() # empty vector to store the matrix type for each ac score
 
-model <- agnes(dissimilarityArray_all[ , ,1], diss = TRUE, method = "ward") # generate model
 
-for (i in 3:3) { # loop over array full of dissimilarity matrix 
-  for (m in 4:4){ # loop over methods
+
+for (i in 1:3) { # loop over array full of dissimilarity matrix 
+  for (m in 1:4){ # loop over methods
     count <- count + 1 # increase counter by 1
     
     variable_id <- paste("cluster",names_dis[i], methods[m], sep = "_") # generate variable id
@@ -70,3 +71,6 @@ for (i in 3:3) { # loop over array full of dissimilarity matrix
     
   }
 }
+
+finishTime <- Sys.time()
+(finishTime - startTime)

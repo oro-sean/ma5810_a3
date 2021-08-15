@@ -54,40 +54,54 @@ check_timeDiff <- fviz_pca_biplot(PCA, geom = "point") # plot data and PCA
 check_timeDiff
 rm(dif_df, PCA) # remove variables not required
 
-## considering each cluster individually, calculate LOF for the observation and knn_dist of the difference
+## considering each cluster individually, calculate LOF for the observation and difference and knn for position
 modelData <- foreach( i = clustersToKeep, .combine = rbind) %do%
   {
     subset <- modelData %>% filter(group == i) # select each group
-    subset_metrics <- subset %>% select(heel, bsp, course, twa) # select factors for lof
-    subset_tide <- subset %>% select(difX, difY) # select factors for knn
-    subset_position <- subset %>% select(sec, lat, long) # select facrtors for knn of position
-    preproc <- caret::preProcess(subset_position, method = c("center", "scale")) # set up fopr centre and scaling
+    
+    subset_metrics <- subset %>% select(sec, heel, bsp, course, twa) # select factors for lof
+    preproc <- caret::preProcess(subset_metrics, method = c("center", "scale")) # set up for center and scaling
+    subset_metrics <- predict(preproc, subset_metrics)
+    subset$lof_metrics <- lof(x=subset_metrics, minPts = 60) # calculate lof
+    
+    subset_position <- subset %>% select(sec, lat, long) # select factors for knn of position
+    preproc <- caret::preProcess(subset_position, method = c("center", "scale")) # set up for center and scaling
     subset_position <- predict(preproc, subset_position)
-    subset$lof <- lof(x=subset_metrics, minPts = 100) # calculate lof
-    subset$knn_tide <- kNNdist(x = subset_tide, k = 180) # calculate knn using difference vector
     subset$knn_position <- kNNdist(x = subset_position, k = 30) # calculate knn using position and time
+    
+    subset_tide <- subset %>% select(sec, difX, difY) # select factors for knn
+    preproc <- caret::preProcess(subset_tide, method = c("center", "scale")) # set up for center and scaling
+    subset_tide <- predict(preproc, subset_tide)
+    subset$lof_tide <- lof(x = subset_tide, minPts = 180) # calculate knn using difference vector
+    
     subset
   }
 
 ## for easy visualization of cut off's create truncated lof and knn
-modelData <- modelData %>% mutate(lof_thresholds = ifelse(lof <= 1, 1, ifelse(lof < 1.5, DescTools::RoundTo(lof, multiple = 0.1, FUN = trunc), 1.5)))
-modelData <- modelData %>% mutate(knn_tide_threshold = ifelse(knn_tide <= 0.8, 0.8, ifelse(knn_tide < 1.5, DescTools::RoundTo(knn_tide, multiple = 0.1, FUN = trunc), 1.5)))
-modelData <- modelData %>% mutate(knn_position_threshold = ifelse(knn_position <= 0.3, 0.3, ifelse(knn_position < 0.6, DescTools::RoundTo(knn_position, multiple = 0.1, FUN = trunc), 0.6)))
+modelData <- modelData %>% mutate(lof_metric_thresholds = ifelse(lof_metrics <= 1, 1, 
+                                                                 ifelse(lof_metrics < 1.5, DescTools::RoundTo(lof_metrics, multiple = 0.1, FUN = trunc), 
+                                                                        1.5)))
+modelData <- modelData %>% mutate(lof_tide_threshold = ifelse(lof_tide <= 0.8, 0.8, 
+                                                              ifelse(lof_tide < 1.5, DescTools::RoundTo(lof_tide, multiple = 0.1, FUN = trunc),
+                                                                     1.5)))
+modelData <- modelData %>% mutate(knn_position_threshold = ifelse(knn_position <= 0.3, 0.3, 
+                                                                  ifelse(knn_position < 0.6, DescTools::RoundTo(knn_position, multiple = 0.1, FUN = trunc),
+                                                                         0.6)))
 
 ## visualize lof and knn 
-lof_plot <- ggplot(modelData, aes(x = long, y = lat)) + coord_quickmap() + 
-  geom_point(aes(colour = as.factor(lof_thresholds)), stroke = .001, alpha = 0.5) + theme(legend.position = "bottom") + facet_wrap(modelData$group)
-lof_plot
+lof_metrics_plot <- ggplot(modelData, aes(x = long, y = lat)) + coord_quickmap() + 
+  geom_point(aes(colour = as.factor(lof_metric_thresholds)), stroke = .001, alpha = 0.5) + theme(legend.position = "bottom") + facet_wrap(modelData$group)
+lof_metrics_plot
 
-knn_plot <- ggplot(modelData, aes(x = difX, y = difY)) + geom_point(aes(colour = as.factor(knn_tide_threshold)), stroke = .001, alpha = 0.5) + theme(legend.position = "bottom") 
-knn_plot
+lof_tide_plot <- ggplot(modelData, aes(x = difX, y = difY)) + geom_point(aes(colour = as.factor(lof_tide_threshold)), stroke = .001, alpha = 0.5) + theme(legend.position = "bottom") 
+lof_tide_plot
 
-position_plot <- ggplot(modelData, aes(x = long, y = lat)) + coord_quickmap() + 
+knn_position_plot <- ggplot(modelData, aes(x = long, y = lat)) + coord_quickmap() + 
   geom_point(aes(colour = as.factor(knn_position_threshold)), stroke = .001, alpha = 0.5) + theme(legend.position = "bottom") + facet_wrap(modelData$group)
-position_plot
+knn_position_plot
 
 ## remove outliers
-modelData <- modelData %>% filter(lof <= 1.1 & knn_tide <= 1.0 & knn_position <= 0.4)
+modelData <- modelData %>% filter(lof_metrics <= 1.2 & lof_tide < 0.9 & knn_position < 0.5)
 
 ## plot cleaned data
 clean_plot <- ggplot(modelData, aes(x = long, y = lat)) + coord_quickmap() +
@@ -105,10 +119,15 @@ TIDE <- function(difference,component){
 
 
 #####  do this taking the average then cosine distance   FTW
-modelData <-
-  foreach(g = unique(modelData$group), .combine = rbind) %do%
+compCal <- COMPCAL(modelData)
+
+COMPCAL <- function(modelData)
   {
-    sample <- modelData %>% filter(group == g)
+  tideData <- modelData %>% select(sec, difX, difY, group)
+  
+  foreach(g = unique(tideData$group), .combine = rbind) %do%
+  {
+    sample <- tideData %>% filter(group == g)
     
     tide_x <- foreach(i = seq(1:length(sample$sec)), .combine = c) %do%
   {
@@ -116,7 +135,7 @@ modelData <-
   e <- i+20
 
   ifelse(s < 1 | e > length(sample$sec), NA, ifelse(
-    (sample$sec[e]-sample$sec[s])>50,NA, TIDE(sample[s:e, 28:29],1) 
+    (sample$sec[e]-sample$sec[s])>50,NA, TIDE(sample[s:e, 2:3],1) 
   ))
 
   }
@@ -127,18 +146,18 @@ modelData <-
         e <- i+20
         
         ifelse(s < 1 | e > length(sample$sec), NA, ifelse(
-          (sample$sec[e]-sample$sec[s])>50,NA, TIDE(sample[s:e, 28:29],2) 
+          (sample$sec[e]-sample$sec[s])>50,NA, TIDE(sample[s:e, 2:3],2) 
         ))
         
       }
-  sample$tide_x <- tide_x
-  sample$tide_y <- tide_y
-  sample
+  groupAvg <- data.frame(g, mean(tide_x, na.rm = TRUE), mean(tide_y, na.rm = TRUE))
+  groupAvg
 
 }
-
+}
 
 ###
+
 combin <- modelData %>% group_by(group)
 
 
